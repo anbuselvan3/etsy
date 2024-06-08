@@ -17,7 +17,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     z-index: 99;
 
 }
@@ -88,10 +87,10 @@ header ul li a :hover{
 }
 
 nav ul li{
-    margin-top: 65px;
     display: inline-block;
     margin-left: 80px;
     padding: 5px;
+    text-align: center;
 }
 
 nav ul li a{
@@ -142,7 +141,10 @@ nav ul li:hover{
     overflow: hidden;
     border: 1px;
     border-color: black;
-    border-style: solid;
+
+.local h1{
+    margin-top: 15px;
+}    border-style: solid;
     margin: 20px;
     text-align: center;
 
@@ -157,5 +159,63 @@ nav ul li:hover{
 }
 
 .card:hover{
+    box-shadow: 0px 8px 10px rgba(0,0,0,0.2);
+}
+.shop{
+
+    margin-left: 220px;
+    display: flex;
+}
+.local{
+    margin-top: 170px;
+}
+.local h1{
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 25px;
+    width: 320px;
+    height: 45px;
+    border-radius: 30px;
+    border-color: black;
+    border: 2px;
+    border-style: solid;
+}
+.card-container1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.card1{
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 3px;
+    border-color: black;
+    margin: 10px;
+}
+.card1 img{
+    width: 270px;
+    height: 380px;
+}
+.content img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    clip-path: circle();
+}
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.content1{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.card1:hover{
     box-shadow: 0px 8px 10px rgba(0,0,0,0.2);
 }
